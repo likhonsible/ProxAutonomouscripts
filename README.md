@@ -43,5 +43,5 @@ If you find this extension helpful, consider making a donation to support the de
 
 - **Email:** owner@likhonscripts.cloud
 
-[![GitHub license](https://img.shields.io/github/license/yourusername/yourrepositoryname)](https://github.com/yourusername/yourrepositoryname/blob/main/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/likhonsible/ProxAutonomouscripts)](https://github.com/likhonsible/ProxAutonomouscripts/blob/main/LICENSE)
 ****
