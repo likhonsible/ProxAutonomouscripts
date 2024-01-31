@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "ProxAutonomouscripts",
+  "version": "28",
+  "options_page": "options.html",
+  "options_ui": {
+    "chrome_style": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "tabs",
+    "proxy",
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "webNavigation",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "icons": {
+    "16": "icon16.png",  
+    "48": "icon48.png",  
+    "128": "icon128.png" 
+  }
+}
