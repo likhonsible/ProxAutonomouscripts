@@ -1,8 +1,6 @@
 
 
-# ** Elevate Your Browsing!** 🚀
-
-Discover the ultimate Chrome browser proxy extension with enhanced features.
+# Discover the ultimate Chrome browser proxy extension with enhanced features.
 
 <img src="https://repository-images.githubusercontent.com/750728090/1f761721-992f-42da-9e85-b7a529fb48f6" alt="Banner">
 
