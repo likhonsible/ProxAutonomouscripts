@@ -1,9 +1,6 @@
-<p align="center">
-  <a href="https://github.com/likhonsible/ProxAutonomouscripts">
-    <img src="images/logo.png" alt="Logo" width="120" height="120">
-  </a>
 
-# **ProxAutonomouscripts - Elevate Your Browsing!** 🚀
+
+# ** Elevate Your Browsing!** 🚀
 
 Discover the ultimate Chrome browser proxy extension with enhanced features.
 
