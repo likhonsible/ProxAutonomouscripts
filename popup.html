@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Join our exclusive Telegram groups to get the latest updates on Likhon Scripts and Autonomous projects.">
+    <meta property="og:title" content="Join our Telegram groups">
+    <meta property="og:description" content="Stay updated by joining our Telegram groups for exciting projects and updates.">
+    <meta property="og:image" content="https://example.com/social-image.png">
+    <meta property="og:url" content="https://example.com/join">
+    <meta property="og:type" content="website">
     <title>Join our Telegram groups</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap">
     <style>
@@ -15,46 +21,101 @@
 
         body {
             font-family: "Teko", sans-serif;
-            background: rgba(0, 0, 0, 0.7);
+            background: linear-gradient(135deg, #141E30 0%, #243B55 100%);
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
+            color: #fff;
         }
 
         .popup {
-            padding: 20px;
+            padding: 30px;
             background: #1a1a1a;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
             text-align: center;
             display: flex;
             flex-direction: column;
             align-items: center;
+            animation: fadeIn 1s ease-in-out;
+            max-width: 400px;
+            width: 100%;
         }
 
         h2 {
-            font-size: 24px;
+            font-size: 28px;
             margin-bottom: 20px;
             color: #fff;
+            letter-spacing: 1.5px;
+            animation: slideDown 0.7s ease;
         }
 
         .btn {
             background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: #fff;
             border: none;
-            border-radius: 5px;
-            padding: 10px 15px;
+            border-radius: 30px;
+            padding: 12px 20px;
             cursor: pointer;
-            margin: 5px;
-            font-size: 16px;
+            margin: 10px;
+            font-size: 18px;
             text-decoration: none;
-            transition: background-image 0.3s;
+            transition: background-image 0.3s, transform 0.3s;
+            width: 100%;
+            text-align: center;
+            max-width: 300px;
         }
 
         .btn:hover {
             background-image: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+            transform: scale(1.05);
+        }
+
+        .btn:active {
+            transform: scale(0.98);
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Slide-down effect for the title */
+        @keyframes slideDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive design for mobile devices */
+        @media (max-width: 768px) {
+            .popup {
+                padding: 20px;
+                border-radius: 10px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .btn {
+                padding: 10px 15px;
+                font-size: 16px;
+            }
         }
     </style>
 </head>
